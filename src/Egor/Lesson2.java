@@ -1,10 +1,19 @@
-package Egor;
-public class Lesson2 {
+/**
+ *	Java 1. Homework 2
+ *	@author Egor
+ *  @version 28.03.2022
+ */
+
+package egor;
+
+import javax.swing.*;
+
+public class Lesson_2 {
 
     public static void main(String[] args) {
         System.out.println(within10and20(10, 3));
         ispositiveornegative(-10);
-        neGative(5);
+        System.out.println(neGative(10));
         print();
     }
 
@@ -30,22 +39,9 @@ public class Lesson2 {
 
     static void print() {
         for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 1; j++) {
-                System.out.print('1');
-            }
-            System.out.println();
+
+                System.out.println(i);
             }
         }
-
-
     }
-
-
-
-
-
-
-
-
-
 
